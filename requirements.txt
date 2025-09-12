@@ -1,0 +1,7 @@
+langchain==0.3.25
+langchain_community==0.3.12
+transformers==4.51.3
+tqdm==4.67.1
+pdfplumber==0.11.7
+sentence_transformers==5.1.0
+pandas==2.3.2
