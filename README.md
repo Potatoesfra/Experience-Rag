@@ -10,9 +10,11 @@ cd /d "D:\Documents\Exemple Docker"    -->    remplacer par l'emplacement du r�
 
 docker build -t mon_image .
 
-docker run --name mon_conteneur -it mon_image
+4. Run le docker en lui autorisant les gpu :
 
-4. Copier-coller le fichier généré en-dehors du conteneur :
+docker run --gpus all --name mon_conteneur -it mon_image 
+
+5. Copier-coller le fichier généré en-dehors du conteneur :
 
 docker cp mon_conteneur:/app/Reponses.csv .
 
