@@ -1,3 +1,6 @@
+ATTENTION 
+Une portion du copde tourne sur gpu. Il faut autoriser docker à accéder au GPU dans Settings --> AI --> Cocher "Enable Docker Model Runner" et "Enable GPU-backed inference"
+
 Pour exécuter le code :
 
 1. Télécharger les documents de mon GitHub et dézipper dans le répertoire de votre choix.
