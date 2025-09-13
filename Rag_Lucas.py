@@ -124,7 +124,9 @@ print ('\n Les chunks sont correctement vectorisés \n')
 #%%
 
 print ('Chargement du LLM  \n')
-model_id = "vhab10/Llama-3.2-Instruct-3B-TIES"
+#model_id = "vhab10/Llama-3.2-Instruct-3B-TIES"
+model_id = "ibm-granite/granite-3.3-2b-instruct"
+
 
 # Charger le tokenizer
 tokenizer = AutoTokenizer.from_pretrained(model_id)
@@ -317,3 +319,4 @@ df_out = pd.DataFrame(results)
 df_out.to_csv(output_csv, index=False, encoding="utf-8-sig")
 
 print(f"\n Une réponse est donnée à toutes les queries. Les résultats sont sauvegardés dans {output_csv}")
+
